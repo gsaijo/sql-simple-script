@@ -1,4 +1,4 @@
-SET @star_time = NOW();
+SET @start_time = NOW();
 
 SELECT pr.produto, SUM(ve.qty * pr.preco) AS total_venda
 FROM produtos pr 
